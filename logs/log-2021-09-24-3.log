@@ -1,0 +1,277 @@
+[2021-09-24T09-26-29.294Z] Starting C3CBot version 0.6.0 ...
+[2021-09-24T09-26-29.544Z] [INTERNAL] Loading language: de_DE
+[2021-09-24T09-26-29.560Z] [INTERNAL] Loading language: en_GB
+[2021-09-24T09-26-29.563Z] [INTERNAL] Loading language: en_US
+[2021-09-24T09-26-29.567Z] [INTERNAL] Loading language: es_ES
+[2021-09-24T09-26-29.570Z] [INTERNAL] Loading language: fr_FR
+[2021-09-24T09-26-29.574Z] [INTERNAL] Loading language: ja_JP
+[2021-09-24T09-26-29.578Z] [INTERNAL] Loading language: ko_KR
+[2021-09-24T09-26-29.580Z] [INTERNAL] Loading language: ru_RU
+[2021-09-24T09-26-29.587Z] [INTERNAL] Loading language: vi_VN
+[2021-09-24T09-26-29.590Z] [INTERNAL] Loading language: zh_TW
+[2021-09-24T09-26-29.610Z] [Updater] You are using build 0.6.0, and there is a new build (0.7.1)
+[2021-09-24T09-26-29.610Z] [Updater] Downloading build 0.7.1...
+[2021-09-24T09-26-30.124Z] [Facebook] Logging in...
+[2021-09-24T09-26-35.158Z] [CMv2] Starting CMv2 connection...
+[2021-09-24T09-26-35.172Z] [INTERNAL] Searching for plugins in ./plugins/ ...
+[2021-09-24T09-26-36.189Z] [INTERNAL] /home/duyan/Desktop/c3c-0x/plugins/ChemicalEquationBalancer.zip is requiring node modules named jsdom but it isn't installed. Attempting to install it through npm package manager...
+[2021-09-24T09-26-58.371Z] [INTERNAL] Error while loading plugin at "/home/duyan/Desktop/c3c-0x/plugins/ChemicalEquationBalancer.zip": Cannot load node module: jsdom. Additional info: Error: /home/duyan/Desktop/c3c-0x/plugins/nodemodules/node_modules/canvas/build/Release/canvas.node: invalid ELF header
+[2021-09-24T09-26-58.709Z] [INTERNAL] /home/duyan/Desktop/c3c-0x/plugins/EncodedMessage.zip is requiring node modules named base2048 but it isn't installed. Attempting to install it through npm package manager...
+[2021-09-24T09-27-05.734Z] [INTERNAL] Error while loading plugin at "/home/duyan/Desktop/c3c-0x/plugins/EncodedMessage.zip": Cannot load node module: base2048. Additional info: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/duyan/Desktop/c3c-0x/plugins/nodemodules/node_modules/base2048/src/index.js
+require() of ES modules is not supported.
+require() of /home/duyan/Desktop/c3c-0x/plugins/nodemodules/node_modules/base2048/src/index.js from /home/duyan/Desktop/c3c-0x/main.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename index.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/duyan/Desktop/c3c-0x/plugins/nodemodules/node_modules/base2048/package.json.
+
+[2021-09-24T09-27-27.580Z] [Facebook] Logged in.
+[2021-09-24T09-27-27.655Z] [Facebook] Started Facebook listener
+[2021-09-24T09-27-27.894Z] [INTERNAL] /home/duyan/Desktop/c3c-0x/plugins/eXPerienceChat.zip is requiring node modules named text2png but it isn't installed. Attempting to install it through npm package manager...
+[2021-09-24T09-27-40.538Z] [INTERNAL] Error while loading plugin at "/home/duyan/Desktop/c3c-0x/plugins/eXPerienceChat.zip": Cannot load node module: text2png. Additional info: Error: /home/duyan/Desktop/c3c-0x/plugins/nodemodules/node_modules/canvas/build/Release/canvas.node: invalid ELF header
+[2021-09-24T09-27-40.543Z] [INTERNAL] Loaded AddUserByLink 1.1 by UIRI
+[2021-09-24T09-27-40.544Z] [INTERNAL] Loaded ArrowChat 1.2 by UIRI
+[2021-09-24T09-27-40.546Z] [INTERNAL] Loaded Broadcast 1.4.3 by UIRI
+[2021-09-24T09-27-40.547Z] [INTERNAL] Loaded DenyCommand 1.0 by UIRI
+[2021-09-24T09-27-40.563Z] [INTERNAL] Loaded Economy-Gambling 0.6 by UIRI
+[2021-09-24T09-27-40.565Z] [INTERNAL] Economy-Income is missing a function for /rob
+[2021-09-24T09-27-40.566Z] [INTERNAL] Loaded Economy-Income 0.3.1 by UIRI
+[2021-09-24T09-27-40.567Z] [INTERNAL] Loaded Economy-Rain 1.1 by UIRI
+[2021-09-24T09-27-40.571Z] [INTERNAL] Loaded Economy 1.0-beta.18 by UIRI
+[2021-09-24T09-27-40.572Z] [INTERNAL] Loaded EmbedMessage 1.0 by UIRI
+[2021-09-24T09-27-40.576Z] [INTERNAL] Loaded Giftcode 1.1 by UIRI
+[2021-09-24T09-27-40.579Z] [INTERNAL] Loaded LibBetterRandom  by UIRI, Sean McCullough, Takuji Nishimura and Makoto Matsumoto
+[2021-09-24T09-27-40.581Z] [INTERNAL] Loaded MP3Voice 2.0.4 by BadAimWeeb
+[2021-09-24T09-27-40.583Z] [INTERNAL] Loaded MathSolve 0.3 by UIRI
+[2021-09-24T09-27-40.584Z] [INTERNAL] Loaded Ping 1.1 by UIRI
+[2021-09-24T09-27-40.586Z] [INTERNAL] Loaded ReportAdmin 1.1 by UIRI
+[2021-09-24T09-27-40.589Z] [INTERNAL] Loaded SimSimi 2.0.3 by UIRI
+[2021-09-24T09-27-40.591Z] [INTERNAL] Loaded Text-To-Speech 1.1.1 by UIRI
+[2021-09-24T09-27-40.610Z] [INTERNAL] Loaded Thanos Time Stone 1.1 by UIRI
+[2021-09-24T09-27-40.612Z] [INTERNAL] Loaded URLShortenerAPI 1.0 by UIRI
+[2021-09-24T09-27-40.616Z] [INTERNAL] Loaded Weather 1.2.1 by UIRI & XxBoomer
+[2021-09-24T09-27-40.617Z] [INTERNAL] Loaded SearchWiki 0.1.2 by Stowe + BadAimWeeb (f.edit)
+[2021-09-24T09-27-40.619Z] [INTERNAL] Plugin loading is done! (65.447s)
+[2021-09-24T09-27-40.619Z] [INTERNAL] Warning: There're some plugins that are failed to load: 
+- /home/duyan/Desktop/c3c-0x/plugins/ChemicalEquationBalancer.zip
+- /home/duyan/Desktop/c3c-0x/plugins/EncodedMessage.zip
+- /home/duyan/Desktop/c3c-0x/plugins/eXPerienceChat.zip
+[2021-09-24T09-27-40.805Z] [CMv2] Connected. Authenticating...
+[2021-09-24T09-27-40.855Z] [CMv2] Disconnected (reason: ping timeout), attempting to reconnect...
+[2021-09-24T09-27-41.870Z] [GLOBAL-BAN] Checking banned status for thread 4347630145314498...
+[2021-09-24T09-27-41.906Z] [Facebook] 100044728309180 (Duy An) issued command in 4347630145314498: .help
+[2021-09-24T09-27-42.332Z] [GLOBAL-BAN] Failed to check banned status for thread 4347630145314498: Error: Cannot fetch Global Ban List from server c3cbot.tk (GitHub Pages).
+    at /home/duyan/Desktop/c3c-0x/main.js:1202:19
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2021-09-24T09-27-43.568Z] [Facebook] 100072122781468 (Duy An) replied to 100044728309180 at 4347630145314498: Danh sách lệnh:
+1. .help [trang]
+2. .adduser <Facebook profile link>
+3. .listarrow
+4. .delarrow <chat>
+7. .rbc
+10. .dice <half (nửa)/all (toàn bộ)/số tiền> <over (trên)/under (dưới)> <số dự đoán>
+11. .roulette
+12. .baicao <half (nửa)/all (toàn bộ)/số tiền>
+13. .rps <half (nửa)/all (toàn bộ)/số tiền> [rock (búa)/paper (bao)/scissors (kéo)]
+14. .work
+15. .slut
+(Trang 1/4)
+Gõ `.help [lệnh]` để biết thêm chi tiết về lệnh đó. 
+[2021-09-24T09-27-45.110Z] [CMv2] Connected. Authenticating...
+[2021-09-24T09-27-48.399Z] [Updater] Failed to install new build: Error: No such directory: /home/duyan/Desktop/c3c-0x/c3c-0.7.1
+    at findFromDir (/home/duyan/Desktop/c3c-0x/autoUpdater.js:58:11)
+    at /home/duyan/Desktop/c3c-0x/autoUpdater.js:285:26
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2021-09-24T09-28-10.035Z] [Facebook] 100044728309180 (Duy An) issued command in 4347630145314498: .rps
+[2021-09-24T09-28-11.234Z] [Facebook] 100072122781468 (Duy An) replied to 100044728309180 at 4347630145314498: Quá ít tham số! 
+[2021-09-24T09-28-17.847Z] [Facebook] 100044728309180 (Duy An) issued command in 4347630145314498: .rps 100
+[2021-09-24T09-28-17.849Z] [INTERNAL] Economy-Gambling contain an error: TypeError: global.data.economy[id].floor is not a function
+    at Object.rpsFunction [as scope] (/home/duyan/Desktop/c3c-0x/plugins/Economy-Gambling.zip/eco-gambling.js:465:86)
+    at callback (/home/duyan/Desktop/c3c-0x/main.js:1967:80)
+    at /home/duyan/Desktop/c3c-0x/node_modules/fca-unofficial/src/listenMqtt.js:247:26
+    at resolveAttachmentUrl (/home/duyan/Desktop/c3c-0x/node_modules/fca-unofficial/src/listenMqtt.js:247:58)
+    at parseDelta (/home/duyan/Desktop/c3c-0x/node_modules/fca-unofficial/src/listenMqtt.js:266:7)
+    at MqttClient.<anonymous> (/home/duyan/Desktop/c3c-0x/node_modules/fca-unofficial/src/listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:400:28)
+    at Arguments.<anonymous> (/home/duyan/Desktop/c3c-0x/node_modules/mqtt/lib/client.js:1150:27)
+    at Object.MqttClient.options.customHandleAcks (/home/duyan/Desktop/c3c-0x/node_modules/mqtt/lib/client.js:152:150)
+    at MqttClient._handlePublish (/home/duyan/Desktop/c3c-0x/node_modules/mqtt/lib/client.js:1143:15)
+    at MqttClient._handlePacket (/home/duyan/Desktop/c3c-0x/node_modules/mqtt/lib/client.js:351:12)
+    at work (/home/duyan/Desktop/c3c-0x/node_modules/mqtt/lib/client.js:283:12)
+    at Writable.writable._write (/home/duyan/Desktop/c3c-0x/node_modules/mqtt/lib/client.js:294:5)
+    at doWrite (/home/duyan/Desktop/c3c-0x/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/home/duyan/Desktop/c3c-0x/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Writable.write (/home/duyan/Desktop/c3c-0x/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at Duplexify.ondata (/home/duyan/Desktop/c3c-0x/node_modules/readable-stream/lib/_stream_readable.js:619:20)
+    at Duplexify.emit (events.js:400:28)
+    at addChunk (/home/duyan/Desktop/c3c-0x/node_modules/readable-stream/lib/_stream_readable.js:291:12)
+    at readableAddChunk (/home/duyan/Desktop/c3c-0x/node_modules/readable-stream/lib/_stream_readable.js:278:11)
+    at Duplexify.Readable.push (/home/duyan/Desktop/c3c-0x/node_modules/readable-stream/lib/_stream_readable.js:245:10)
+    at Duplexify._forward (/home/duyan/Desktop/c3c-0x/node_modules/duplexify/index.js:170:26)
+[2021-09-24T09-28-19.305Z] [Facebook] 100072122781468 (Duy An) replied to 100044728309180 at 4347630145314498: plerr: TypeError: global.data.economy[id].floor is not a function
+    at Object.rpsFunction [as scope] (/home/duyan/Desktop/c3c-0x/plugins/Economy-Gambling.zip/eco-gambling.js:465:86)
+    at callback (/home/duyan/Desktop/c3c-0x/main.js:1967:80)
+    at /home/duyan/Desktop/c3c-0x/node_modules/fca-unofficial/src/listenMqtt.js:247:26
+    at resolveAttachmentUrl (/home/duyan/Desktop/c3c-0x/node_modules/fca-unofficial/src/listenMqtt.js:247:58) 
+[2021-09-24T09-28-20.389Z] [Facebook] Reaction received: {
+  type: 'message_reaction',
+  threadID: '4347630145314498',
+  messageID: 'mid.$gAA9yJYZtHsKCSGeAYF8FyI20jJnt',
+  reaction: '😮',
+  senderID: '100072122781468',
+  userID: '100022119366305'
+}
+[2021-09-24T09-28-32.557Z] [Facebook] 100044728309180 (Duy An) messaged in thread 4347630145314498: Hmm plugin lỗi cmnr 
+[2021-09-24T09-28-39.311Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Tui thấy cái địa chỉ nhỉ 
+[2021-09-24T09-28-42.966Z] [Facebook] 100044728309180 (Duy An) issued command in 4347630145314498: .help 2
+[2021-09-24T09-28-44.370Z] [Facebook] 100072122781468 (Duy An) replied to 100044728309180 at 4347630145314498: Danh sách lệnh:
+16. .crime
+17. .mint
+22. .rainall <số tiền>
+23. .bal [@mentions]
+24. .balance [@metions]
+26. .baltop [trang]
+27. .transfer <số tiền> <@mentions>
+28. .unsafetransfer <số tiền> <mã wallet>
+29. .walletcode
+30. .redeem <mã giftcode>
+(Trang 2/4)
+Gõ `.help [lệnh]` để biết thêm chi tiết về lệnh đó. 
+[2021-09-24T09-28-50.789Z] [Facebook] 100044728309180 (Duy An) issued command in 4347630145314498: .crime
+[2021-09-24T09-28-51.945Z] [Facebook] 100072122781468 (Duy An) replied to 100044728309180 at 4347630145314498: +813Ƀ | Balance: 813Ƀ 
+[2021-09-24T09-28-56.316Z] [Facebook] Reaction received: {
+  type: 'message_reaction',
+  threadID: '4347630145314498',
+  messageID: 'mid.$gAA9yJYZtHsKCSGgfaV8FyLV6djdc',
+  reaction: '😮',
+  senderID: '100072122781468',
+  userID: '100022119366305'
+}
+[2021-09-24T09-29-02.103Z] [Facebook] 100044728309180 (Duy An) issued command in 4347630145314498: .baicao
+[2021-09-24T09-29-03.269Z] [Facebook] 100072122781468 (Duy An) replied to 100044728309180 at 4347630145314498: Quá ít tham số! 
+[2021-09-24T09-29-05.612Z] [Facebook] Error on markAsSeen: {
+  __ar: 1,
+  error: 3252001,
+  errorSummary: 'Bạn tạm thời bị chặn',
+  errorDescription: {
+    __html: '<ul class="uiList _4kg _6-h _6-j _6-i"><li>Có vẻ như bạn đang dùng nhầm tính năng này do sử dụng quá nhanh. Bạn tạm thời đã bị chặn sử dụng nó.</li><li>Nếu bạn cho rằng nội dung này không vi phạm Tiêu chuẩn cộng đồng của chúng tôi, <a href="https://www.facebook.com/help/contact/571927962827151?additional_content=Aej27Kh6ESf24nUb-JAgEkHdE18qc3zDz5-7GAneCLxoVrb_7dB-2W7EBrRPBBPCOYHRff7I9D8nChS14UujE_24SSxg4RYhMoHgoO7yYNbdjGIuo_vGXlt8LkVHO8W02lYQntOz0H1-9FY8dPAvEwFzSGfLIVeapeyqKj8pCiUBxwVAgTi2r4p_N3opmmtXDgMPA2X6aQJ24egcn8mjn3ivbF6w-1il4wuDD-Q6ZFimHmqxxzp7MUNMccMPemU9pYvs_VCUWKkYF0gP_93ooK1OVkbu3H4KA-5zJkWh1QmUdPYi8NyltJSenCe55xhzR9ZdwRLfGQL8RDrQHFZHFdjwE9s6Jf9C_BBl1-hNK7JgC2gmyWDM6is46TTJ4OCUmPTXspmn7qDS405zgHU7WhOH_bWCFOvLKVnvk1PPJ5gs_zVU7k1YoAEeCof5h9L2hQmP1m2NDvpknEjWrdBJrF0c7koJjrEKUCkisQxU6E4GuqiQG1xvnoYneDHxWjE0rCXnLTXYYJkmrTflzbJIcdjN" target="_blank">hãy cho chúng tôi biết</a>.</li></ul>'
+  },
+  blockedAction: true,
+  payload: null,
+  hsrp: {
+    hblp: {
+      sr_revision: 1004450012,
+      consistency: [Object],
+      rsrcMap: [Object]
+    }
+  },
+  allResources: [ 'zTJ+6b3' ],
+  lid: '7011429938334921088'
+}
+[2021-09-24T09-29-05.787Z] [STDERR] [31m[40mERR![0m [0m[35mmarkAsSeen[0m {
+[2021-09-24T09-29-05.787Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   __ar: 1,
+[2021-09-24T09-29-05.788Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   error: 3252001,
+[2021-09-24T09-29-05.789Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   errorSummary: 'Bạn tạm thời bị chặn',
+[2021-09-24T09-29-05.790Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   errorDescription: {
+[2021-09-24T09-29-05.791Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m     __html: '<ul class="uiList _4kg _6-h _6-j _6-i"><li>Có vẻ như bạn đang dùng nhầm tính năng này do sử dụng quá nhanh. Bạn tạm thời đã bị chặn sử dụng nó.</li><li>Nếu bạn cho rằng nội dung này không vi phạm Tiêu chuẩn cộng đồng của chúng tôi, <a href="https://www.facebook.com/help/contact/571927962827151?additional_content=Aej27Kh6ESf24nUb-JAgEkHdE18qc3zDz5-7GAneCLxoVrb_7dB-2W7EBrRPBBPCOYHRff7I9D8nChS14UujE_24SSxg4RYhMoHgoO7yYNbdjGIuo_vGXlt8LkVHO8W02lYQntOz0H1-9FY8dPAvEwFzSGfLIVeapeyqKj8pCiUBxwVAgTi2r4p_N3opmmtXDgMPA2X6aQJ24egcn8mjn3ivbF6w-1il4wuDD-Q6ZFimHmqxxzp7MUNMccMPemU9pYvs_VCUWKkYF0gP_93ooK1OVkbu3H4KA-5zJkWh1QmUdPYi8NyltJSenCe55xhzR9ZdwRLfGQL8RDrQHFZHFdjwE9s6Jf9C_BBl1-hNK7JgC2gmyWDM6is46TTJ4OCUmPTXspmn7qDS405zgHU7WhOH_bWCFOvLKVnvk1PPJ5gs_zVU7k1YoAEeCof5h9L2hQmP1m2NDvpknEjWrdBJrF0c7koJjrEKUCkisQxU6E4GuqiQG1xvnoYneDHxWjE0rCXnLTXYYJkmrTflzbJIcdjN" target="_blank">hãy cho chúng tôi biết</a>.</li></ul>'
+[2021-09-24T09-29-05.792Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   },
+[2021-09-24T09-29-05.792Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   blockedAction: true,
+[2021-09-24T09-29-05.793Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   payload: null,
+[2021-09-24T09-29-05.794Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   hsrp: {
+[2021-09-24T09-29-05.795Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m     hblp: {
+[2021-09-24T09-29-05.796Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m       sr_revision: 1004450012,
+[2021-09-24T09-29-05.796Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m       consistency: [Object],
+[2021-09-24T09-29-05.797Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m       rsrcMap: [Object]
+[2021-09-24T09-29-05.805Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m     }
+[2021-09-24T09-29-05.806Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   },
+[2021-09-24T09-29-05.807Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   allResources: [ 'zTJ+6b3' ],
+[2021-09-24T09-29-05.808Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m   lid: '7011429938334921088'
+[2021-09-24T09-29-05.809Z] [STDERR] [0m[31m[40mERR![0m [0m[35mmarkAsSeen[0m }
+[2021-09-24T09-29-09.417Z] [Facebook] 100044728309180 (Duy An) issued command in 4347630145314498: .baicao 100
+[2021-09-24T09-29-10.575Z] [Facebook] 100072122781468 (Duy An) replied to 100044728309180 at 4347630145314498: Thắng 100Ƀ!
+Bài của nhà cái: ["♥4","♠3","♦6"] (3)
+Bài của người chơi: ["♣5","♦K","♥2"] (7) 
+[2021-09-24T09-29-14.296Z] [Facebook] Reaction received: {
+  type: 'message_reaction',
+  threadID: '4347630145314498',
+  messageID: 'mid.$gAA9yJYZtHsKCSGhoM18FyMervPt3',
+  reaction: '❤',
+  senderID: '100072122781468',
+  userID: '100022119366305'
+}
+[2021-09-24T09-29-14.950Z] [Facebook] 100044728309180 (Duy An) messaged in thread 4347630145314498: :)) 
+[2021-09-24T09-29-16.941Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Vjppp 
+[2021-09-24T09-29-25.980Z] [Facebook] 100022119366305 (Đại Minh) issued command in 4347630145314498: .help
+[2021-09-24T09-29-27.268Z] [Facebook] 100072122781468 (Duy An) replied to 100022119366305 at 4347630145314498: Danh sách lệnh:
+1. .help [trang]
+2. .adduser <Facebook profile link>
+3. .listarrow
+4. .delarrow <chat>
+7. .rbc
+10. .dice <half (nửa)/all (toàn bộ)/số tiền> <over (trên)/under (dưới)> <số dự đoán>
+11. .roulette
+12. .baicao <half (nửa)/all (toàn bộ)/số tiền>
+13. .rps <half (nửa)/all (toàn bộ)/số tiền> [rock (búa)/paper (bao)/scissors (kéo)]
+14. .work
+15. .slut
+(Trang 1/4)
+Gõ `.help [lệnh]` để biết thêm chi tiết về lệnh đó. 
+[2021-09-24T09-29-40.941Z] [Facebook] 100022119366305 (Đại Minh) issued command in 4347630145314498: .roulette
+[2021-09-24T09-29-42.197Z] [Facebook] 100072122781468 (Duy An) replied to 100022119366305 at 4347630145314498: Không rõ câu lệnh! Xin vui lòng gõ `/roulette help` để xem tất cả câu lệnh. 
+[2021-09-24T09-29-53.565Z] [Facebook] 100022119366305 (Đại Minh) issued command in 4347630145314498: .roulette help
+[2021-09-24T09-29-57.914Z] [Facebook] 100072122781468 (Duy An) replied to 100022119366305 at 4347630145314498: Danh sách lệnh: 
+/roulette bet <kích thước> <vị trí đặt>: Đặt cược
+/roulette start: Bắt đầu quay
+/roulette betlist: Danh sách ván đặt cược
+/roulette undo-bet <bet id>: Hủy ván đặt cược có số <bet id>
+Chú ý rằng mọi người đều có bàn đặt cược riêng, và không có bàn đặt chung nào cả.
+Ảnh dưới: Tất cả vị trí có thể đặt. 
+  <Photo 1382x656 | https://scontent.xx.fbcdn.net/v/t1.15752-9/p480x480/50309928_391146211694948_2925020316537192448_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=4G9uXspRnmYAX_pffu0&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=e145bb6f2a54943f9b9a3e3593f13fb7&oe=617478F7>
+[2021-09-24T09-30-05.732Z] [Facebook] Reaction received: {
+  type: 'message_reaction',
+  threadID: '4347630145314498',
+  messageID: 'mid.$gAA9yJYZtHsKCSGkhE18FyPLHSsYC',
+  reaction: '😮',
+  senderID: '100072122781468',
+  userID: '100022119366305'
+}
+[2021-09-24T09-30-12.091Z] [Facebook] 100044728309180 (Duy An) messaged in thread 4347630145314498: Để tối lục plugin cái 
+[2021-09-24T09-30-15.117Z] [Facebook] Reaction received: {
+  type: 'message_reaction',
+  threadID: '4347630145314498',
+  messageID: 'mid.$gAA9yJYZtHsKCSGlYgV8FyQOtYuGQ',
+  reaction: '❤',
+  senderID: '100044728309180',
+  userID: '100022119366305'
+}
+[2021-09-24T09-30-19.033Z] [GLOBAL-BAN] Checking banned status for thread 4084462684972122...
+[2021-09-24T09-30-19.045Z] [Facebook] 100064289860224 (Phương Thiếu Muối) messaged in thread 4084462684972122: Hi mng 
+[2021-09-24T09-30-19.285Z] [GLOBAL-BAN] Failed to check banned status for thread 4084462684972122: Error: Cannot fetch Global Ban List from server c3cbot.tk (GitHub Pages).
+    at /home/duyan/Desktop/c3c-0x/main.js:1202:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2021-09-24T09-30-19.352Z] [Facebook] 100072325381904 (Nguyễn Duy An) messaged in thread 4084462684972122: Chào bạn yêu dấu, chúc bạn một ngày mới tốt lành ❤️ 
+[2021-09-24T09-30-19.755Z] [CACHENAME] Batch operation (from thread 4084462684972122): 100045044031521 => Thành Đạt
+[2021-09-24T09-30-23.070Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Hmm tui nghi ngờ về nguồn gốc của bot mess 
+[2021-09-24T09-30-32.612Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Có cuốn lịch sử ko nhỉ 
+[2021-09-24T09-30-45.022Z] [Facebook] 100044728309180 (Duy An) messaged in thread 4347630145314498: Chịu ấ 
+[2021-09-24T09-30-47.508Z] [Facebook] 100044728309180 (Duy An) messaged in thread 4347630145314498: Ấy 
+[2021-09-24T09-30-49.773Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Okk ko sao 
+[2021-09-24T09-30-59.607Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: T hay có thuyết âm mưu ấy 
+[2021-09-24T09-31-12.102Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Ông có nghĩ giống tui 
+[2021-09-24T09-31-31.481Z] [Facebook] 100044728309180 (Duy An) messaged in thread 4347630145314498: Ko 
+[2021-09-24T09-31-38.880Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Dùng để bài bạc :)) 
+[2021-09-24T09-31-48.811Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Hoặc nó ko phải quá khứ 
+[2021-09-24T09-31-54.614Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Nó là tương lai đấy 
+[2021-09-24T09-32-09.696Z] [Facebook] 100044728309180 (Duy An) messaged in thread 4347630145314498: Sao ông ko nghĩ cờ bạc ở trong game đi 
+[2021-09-24T09-32-09.880Z] [Facebook] 100072325381904 (Nguyễn Duy An) messaged in thread 4347630145314498: ‎Trình độ chém gió của Duy An đã đạt tới level 6 
+[2021-09-24T09-32-19.319Z] [Facebook] 100044728309180 (Duy An) messaged in thread 4347630145314498: Nó thực tế hơn nhiều 
+[2021-09-24T09-32-19.665Z] [Facebook] Reaction received: {
+  type: 'message_reaction',
+  threadID: '4347630145314498',
+  messageID: 'mid.$gAA9yJYZtHsKCSGsj7F8FyXaQt03P',
+  reaction: '👍',
+  senderID: '100044728309180',
+  userID: '100022119366305'
+}
+[2021-09-24T09-32-24.803Z] [Facebook] 100044728309180 (Duy An) messaged in thread 4347630145314498: Như gta v roleplay 
+[2021-09-24T09-32-33.332Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: Nh mà tương lai như v cũng đc 
+[2021-09-24T09-32-48.173Z] [Facebook] 100022119366305 (Đại Minh) messaged in thread 4347630145314498: À thôi nhầm đấy game đỏ đen đầy ra 
